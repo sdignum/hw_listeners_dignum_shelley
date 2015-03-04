@@ -1,6 +1,6 @@
-var theButton = document.getElementById ( 'button' );
+var theButton = document.getElementById ( 'myForm' );
 
-theButton.addEventListener( "click", function() {
+theButton.addEventListener( "submit", function() {
 	var firstName = document.getElementById( "fname" ).value;
 	var lastName = document.getElementById( "lname" ).value;
 	var email = document.getElementById( "email" ).value;
